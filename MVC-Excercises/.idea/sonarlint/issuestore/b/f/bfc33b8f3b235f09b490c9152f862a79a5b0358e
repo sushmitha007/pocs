@@ -1,0 +1,7 @@
+
+:squid:S1148"#Use a logger to log this exception.(òçøì
+Ssquid:S1854"=Remove this useless assignment to local variable "saveQuery".(ÃÕ’,
+vsquid:S14887"`Immediately return this expression instead of assigning it to the temporary variable "allTasks".(øÿ¹Y
+:squid:S1148-"#Use a logger to log this exception.(òçøì
+Dsquid:S1481".Remove this unused "saveQuery" local variable.(ÃÕ’,
+?squid:S1148C"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ

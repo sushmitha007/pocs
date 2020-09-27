@@ -1,0 +1,8 @@
+  DROP TABLE task IF EXISTS;
+
+  CREATE TABLE task(
+  taskId  INTEGER PRIMARY KEY,
+  taskTitle VARCHAR(45) NOT NULL,
+  taskContent VARCHAR(500) NULL,
+  taskStatus VARCHAR(100) NULL
+);

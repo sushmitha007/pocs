@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: com.stackroute.taskrobo.commander.test.TaskControllerTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 0.393 s <<< FAILURE! - in com.stackroute.taskrobo.commander.test.TaskControllerTest
+givenValidTaskIdThenReturnTaskAndRedirectToSlash  Time elapsed: 0.306 s  <<< FAILURE!
+java.lang.AssertionError: Redirected URL expected:</> but was:<null>
+	at com.stackroute.taskrobo.commander.test.TaskControllerTest.givenValidTaskIdThenReturnTaskAndRedirectToSlash(TaskControllerTest.java:88)
+
+givenInvalidTaskIdThenRedirectToSlash  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.AssertionError: Redirected URL expected:</> but was:<null>
+	at com.stackroute.taskrobo.commander.test.TaskControllerTest.givenInvalidTaskIdThenRedirectToSlash(TaskControllerTest.java:95)
+
+givenInValidTaskIdWhenDeletedThenRedirectToSlash  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError: Redirected URL expected:</> but was:<null>
+	at com.stackroute.taskrobo.commander.test.TaskControllerTest.givenInValidTaskIdWhenDeletedThenRedirectToSlash(TaskControllerTest.java:81)
+
+givenInvalidTaskThenForwardToIndex  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.stackroute.taskrobo.commander.test.TaskControllerTest.givenInvalidTaskThenForwardToIndex(TaskControllerTest.java:67)
+
+givenValidTaskIdWhenDeletedThenRedirectToSlash  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.AssertionError: Redirected URL expected:</> but was:<null>
+	at com.stackroute.taskrobo.commander.test.TaskControllerTest.givenValidTaskIdWhenDeletedThenRedirectToSlash(TaskControllerTest.java:74)
+
+givenInvalidTaskDetailsWhenUpdatedForwardToIndex  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.stackroute.taskrobo.commander.test.TaskControllerTest.givenInvalidTaskDetailsWhenUpdatedForwardToIndex(TaskControllerTest.java:108)
+
+givenValidTaskDetailsWhenUpdatedRedirectSlash  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<302> but was:<404>
+	at com.stackroute.taskrobo.commander.test.TaskControllerTest.givenValidTaskDetailsWhenUpdatedRedirectSlash(TaskControllerTest.java:102)
+
+givenValidTaskThenRedirectSlash  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<302> but was:<404>
+	at com.stackroute.taskrobo.commander.test.TaskControllerTest.givenValidTaskThenRedirectSlash(TaskControllerTest.java:61)
+

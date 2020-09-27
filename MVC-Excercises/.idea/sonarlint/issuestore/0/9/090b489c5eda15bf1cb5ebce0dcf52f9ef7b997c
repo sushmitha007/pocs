@@ -1,0 +1,9 @@
+
+~squid:UselessImportCheck"URemove this unused import 'org.springframework.test.context.web.WebAppConfiguration'.(Š°—¨üÿÿÿÿ
+%squid:RedundantThrowsDeclarationCheck5"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(«¤ÜÕ
+^squid:S001125"FDefine and throw a dedicated exception instead of using a generic one.(«¤ÜÕ
+{squid:UselessImportCheck"RRemove this unused import 'org.springframework.test.context.ContextConfiguration'.(Î‡„áøÿÿÿÿ
+zsquid:UselessImportCheck"QRemove this unused import 'org.springframework.test.context.junit4.SpringRunner'.(ü·Ùûÿÿÿÿ
+Vsquid:UselessImportCheck"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ
+]squid:UselessImportCheck"4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ
+esquid:S00112:"FDefine and throw a dedicated exception instead of using a generic one.(¾¥ç 8ÎÎŞ×“.

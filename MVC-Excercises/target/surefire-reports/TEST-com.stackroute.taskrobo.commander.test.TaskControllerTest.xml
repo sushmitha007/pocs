@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.stackroute.taskrobo.commander.test.TaskControllerTest" time="0.393" tests="8" errors="0" skipped="0" failures="8">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/sushmitha/Documents/My_Projects/MVC-Excercises/target/test-classes:/home/sushmitha/Documents/My_Projects/MVC-Excercises/target/classes:/home/sushmitha/.m2/repository/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.jar:/home/sushmitha/.m2/repository/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.jar:/home/sushmitha/.m2/repository/org/springframework/spring-webmvc/5.2.4.RELEASE/spring-webmvc-5.2.4.RELEASE.jar:/home/sushmitha/.m2/repository/org/springframework/spring-aop/5.2.4.RELEASE/spring-aop-5.2.4.RELEASE.jar:/home/sushmitha/.m2/repository/org/springframework/spring-beans/5.2.4.RELEASE/spring-beans-5.2.4.RELEASE.jar:/home/sushmitha/.m2/repository/org/springframework/spring-context/5.2.4.RELEASE/spring-context-5.2.4.RELEASE.jar:/home/sushmitha/.m2/repository/org/springframework/spring-core/5.2.4.RELEASE/spring-core-5.2.4.RELEASE.jar:/home/sushmitha/.m2/repository/org/springframework/spring-jcl/5.2.4.RELEASE/spring-jcl-5.2.4.RELEASE.jar:/home/sushmitha/.m2/repository/org/springframework/spring-expression/5.2.4.RELEASE/spring-expression-5.2.4.RELEASE.jar:/home/sushmitha/.m2/repository/org/springframework/spring-web/5.2.4.RELEASE/spring-web-5.2.4.RELEASE.jar:/home/sushmitha/.m2/repository/javax/servlet/javax.servlet-api/4.0.0/javax.servlet-api-4.0.0.jar:/home/sushmitha/.m2/repository/org/springframework/spring-orm/5.0.4.RELEASE/spring-orm-5.0.4.RELEASE.jar:/home/sushmitha/.m2/repository/org/springframework/spring-tx/5.0.4.RELEASE/spring-tx-5.0.4.RELEASE.jar:/home/sushmitha/.m2/repository/org/hibernate/hibernate-core/5.2.16.Final/hibernate-core-5.2.16.Final.jar:/home/sushmitha/.m2/repository/org/jboss/logging/jboss-logging/3.3.1.Final/jboss-logging-3.3.1.Final.jar:/home/sushmitha/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar:/home/sushmitha/.m2/repository/org/javassist/javassist/3.22.0-GA/javassist-3.22.0-GA.jar:/home/sushmitha/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/home/sushmitha/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.1.Final/jboss-transaction-api_1.2_spec-1.0.1.Final.jar:/home/sushmitha/.m2/repository/org/jboss/jandex/2.0.3.Final/jandex-2.0.3.Final.jar:/home/sushmitha/.m2/repository/com/fasterxml/classmate/1.3.0/classmate-1.3.0.jar:/home/sushmitha/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/home/sushmitha/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.jar:/home/sushmitha/.m2/repository/com/h2database/h2/1.4.200/h2-1.4.200.jar:/home/sushmitha/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar:/home/sushmitha/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/sushmitha/.m2/repository/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar:/home/sushmitha/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/sushmitha/.m2/repository/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar:/home/sushmitha/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar:/home/sushmitha/.m2/repository/org/mockito/mockito-core/2.19.0/mockito-core-2.19.0.jar:/home/sushmitha/.m2/repository/net/bytebuddy/byte-buddy/1.8.10/byte-buddy-1.8.10.jar:/home/sushmitha/.m2/repository/net/bytebuddy/byte-buddy-agent/1.8.10/byte-buddy-agent-1.8.10.jar:/home/sushmitha/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/home/sushmitha/.m2/repository/org/mockito/mockito-junit-jupiter/2.19.0/mockito-junit-jupiter-2.19.0.jar:/home/sushmitha/.m2/repository/org/hamcrest/hamcrest-library/2.2/hamcrest-library-2.2.jar:/home/sushmitha/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:/home/sushmitha/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/sushmitha/.m2/repository/org/springframework/spring-jdbc/5.2.4.RELEASE/spring-jdbc-5.2.4.RELEASE.jar:/home/sushmitha/.m2/repository/org/springframework/spring-test/5.2.4.RELEASE/spring-test-5.2.4.RELEASE.jar:/home/sushmitha/.m2/repository/org/hsqldb/hsqldb/2.4.0/hsqldb-2.4.0.jar:/home/sushmitha/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/home/sushmitha/.m2/repository/javax/servlet/jstl/1.2/jstl-1.2.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-oracle/lib"/>
+    <property name="sun.java.command" value="/home/sushmitha/Documents/My_Projects/MVC-Excercises/target/surefire/surefirebooter15024018734783919205.jar /home/sushmitha/Documents/My_Projects/MVC-Excercises/target/surefire 2020-04-02T18-37-15_122-jvmRun1 surefire959557231048857004tmp surefire_04604166030352942434tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/sushmitha/Documents/My_Projects/MVC-Excercises/target/test-classes:/home/sushmitha/Documents/My_Projects/MVC-Excercises/target/classes:/home/sushmitha/.m2/repository/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.jar:/home/sushmitha/.m2/repository/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.jar:/home/sushmitha/.m2/repository/org/springframework/spring-webmvc/5.2.4.RELEASE/spring-webmvc-5.2.4.RELEASE.jar:/home/sushmitha/.m2/repository/org/springframework/spring-aop/5.2.4.RELEASE/spring-aop-5.2.4.RELEASE.jar:/home/sushmitha/.m2/repository/org/springframework/spring-beans/5.2.4.RELEASE/spring-beans-5.2.4.RELEASE.jar:/home/sushmitha/.m2/repository/org/springframework/spring-context/5.2.4.RELEASE/spring-context-5.2.4.RELEASE.jar:/home/sushmitha/.m2/repository/org/springframework/spring-core/5.2.4.RELEASE/spring-core-5.2.4.RELEASE.jar:/home/sushmitha/.m2/repository/org/springframework/spring-jcl/5.2.4.RELEASE/spring-jcl-5.2.4.RELEASE.jar:/home/sushmitha/.m2/repository/org/springframework/spring-expression/5.2.4.RELEASE/spring-expression-5.2.4.RELEASE.jar:/home/sushmitha/.m2/repository/org/springframework/spring-web/5.2.4.RELEASE/spring-web-5.2.4.RELEASE.jar:/home/sushmitha/.m2/repository/javax/servlet/javax.servlet-api/4.0.0/javax.servlet-api-4.0.0.jar:/home/sushmitha/.m2/repository/org/springframework/spring-orm/5.0.4.RELEASE/spring-orm-5.0.4.RELEASE.jar:/home/sushmitha/.m2/repository/org/springframework/spring-tx/5.0.4.RELEASE/spring-tx-5.0.4.RELEASE.jar:/home/sushmitha/.m2/repository/org/hibernate/hibernate-core/5.2.16.Final/hibernate-core-5.2.16.Final.jar:/home/sushmitha/.m2/repository/org/jboss/logging/jboss-logging/3.3.1.Final/jboss-logging-3.3.1.Final.jar:/home/sushmitha/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar:/home/sushmitha/.m2/repository/org/javassist/javassist/3.22.0-GA/javassist-3.22.0-GA.jar:/home/sushmitha/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/home/sushmitha/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.1.Final/jboss-transaction-api_1.2_spec-1.0.1.Final.jar:/home/sushmitha/.m2/repository/org/jboss/jandex/2.0.3.Final/jandex-2.0.3.Final.jar:/home/sushmitha/.m2/repository/com/fasterxml/classmate/1.3.0/classmate-1.3.0.jar:/home/sushmitha/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/home/sushmitha/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.jar:/home/sushmitha/.m2/repository/com/h2database/h2/1.4.200/h2-1.4.200.jar:/home/sushmitha/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar:/home/sushmitha/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/sushmitha/.m2/repository/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar:/home/sushmitha/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/sushmitha/.m2/repository/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar:/home/sushmitha/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar:/home/sushmitha/.m2/repository/org/mockito/mockito-core/2.19.0/mockito-core-2.19.0.jar:/home/sushmitha/.m2/repository/net/bytebuddy/byte-buddy/1.8.10/byte-buddy-1.8.10.jar:/home/sushmitha/.m2/repository/net/bytebuddy/byte-buddy-agent/1.8.10/byte-buddy-agent-1.8.10.jar:/home/sushmitha/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/home/sushmitha/.m2/repository/org/mockito/mockito-junit-jupiter/2.19.0/mockito-junit-jupiter-2.19.0.jar:/home/sushmitha/.m2/repository/org/hamcrest/hamcrest-library/2.2/hamcrest-library-2.2.jar:/home/sushmitha/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:/home/sushmitha/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/sushmitha/.m2/repository/org/springframework/spring-jdbc/5.2.4.RELEASE/spring-jdbc-5.2.4.RELEASE.jar:/home/sushmitha/.m2/repository/org/springframework/spring-test/5.2.4.RELEASE/spring-test-5.2.4.RELEASE.jar:/home/sushmitha/.m2/repository/org/hsqldb/hsqldb/2.4.0/hsqldb-2.4.0.jar:/home/sushmitha/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/home/sushmitha/.m2/repository/javax/servlet/jstl/1.2/jstl-1.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/sushmitha"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2018-10-16"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-oracle"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/sushmitha/Documents/My_Projects/MVC-Excercises"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/sushmitha/Documents/My_Projects/MVC-Excercises/target/surefire/surefirebooter15024018734783919205.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.1+13-LTS"/>
+    <property name="user.name" value="sushmitha"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="4.15.0-76-generic"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/home/sushmitha/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.1"/>
+    <property name="user.dir" value="/home/sushmitha/Documents/My_Projects/MVC-Excercises"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="idea.version2019.3.4" value="true"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.1+13-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="givenValidTaskIdThenReturnTaskAndRedirectToSlash" classname="com.stackroute.taskrobo.commander.test.TaskControllerTest" time="0.306">
+    <failure message="Redirected URL expected:&lt;/&gt; but was:&lt;null&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Redirected URL expected:</> but was:<null>
+	at com.stackroute.taskrobo.commander.test.TaskControllerTest.givenValidTaskIdThenReturnTaskAndRedirectToSlash(TaskControllerTest.java:88)
+]]></failure>
+    <system-err><![CDATA[Apr 02, 2020 6:37:16 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Apr 02, 2020 6:37:16 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Apr 02, 2020 6:37:16 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 3 ms
+Apr 02, 2020 6:37:16 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping for GET /api/v1/getTask
+]]></system-err>
+  </testcase>
+  <testcase name="givenInvalidTaskIdThenRedirectToSlash" classname="com.stackroute.taskrobo.commander.test.TaskControllerTest" time="0.013">
+    <failure message="Redirected URL expected:&lt;/&gt; but was:&lt;null&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Redirected URL expected:</> but was:<null>
+	at com.stackroute.taskrobo.commander.test.TaskControllerTest.givenInvalidTaskIdThenRedirectToSlash(TaskControllerTest.java:95)
+]]></failure>
+    <system-err><![CDATA[Apr 02, 2020 6:37:16 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Apr 02, 2020 6:37:16 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Apr 02, 2020 6:37:16 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Apr 02, 2020 6:37:16 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping for GET /api/v1/getTask
+]]></system-err>
+  </testcase>
+  <testcase name="givenInValidTaskIdWhenDeletedThenRedirectToSlash" classname="com.stackroute.taskrobo.commander.test.TaskControllerTest" time="0.01">
+    <failure message="Redirected URL expected:&lt;/&gt; but was:&lt;null&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Redirected URL expected:</> but was:<null>
+	at com.stackroute.taskrobo.commander.test.TaskControllerTest.givenInValidTaskIdWhenDeletedThenRedirectToSlash(TaskControllerTest.java:81)
+]]></failure>
+    <system-err><![CDATA[Apr 02, 2020 6:37:16 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Apr 02, 2020 6:37:16 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Apr 02, 2020 6:37:16 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Apr 02, 2020 6:37:16 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping for DELETE /api/v1/deleteTask
+]]></system-err>
+  </testcase>
+  <testcase name="givenInvalidTaskThenForwardToIndex" classname="com.stackroute.taskrobo.commander.test.TaskControllerTest" time="0.012">
+    <failure message="Status expected:&lt;200&gt; but was:&lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.stackroute.taskrobo.commander.test.TaskControllerTest.givenInvalidTaskThenForwardToIndex(TaskControllerTest.java:67)
+]]></failure>
+    <system-err><![CDATA[Apr 02, 2020 6:37:16 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Apr 02, 2020 6:37:16 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Apr 02, 2020 6:37:16 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Apr 02, 2020 6:37:16 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping for POST /api/v1/addTask
+]]></system-err>
+  </testcase>
+  <testcase name="givenValidTaskIdWhenDeletedThenRedirectToSlash" classname="com.stackroute.taskrobo.commander.test.TaskControllerTest" time="0.008">
+    <failure message="Redirected URL expected:&lt;/&gt; but was:&lt;null&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Redirected URL expected:</> but was:<null>
+	at com.stackroute.taskrobo.commander.test.TaskControllerTest.givenValidTaskIdWhenDeletedThenRedirectToSlash(TaskControllerTest.java:74)
+]]></failure>
+    <system-err><![CDATA[Apr 02, 2020 6:37:16 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Apr 02, 2020 6:37:16 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Apr 02, 2020 6:37:16 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Apr 02, 2020 6:37:16 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping for DELETE /api/v1/deleteTask
+]]></system-err>
+  </testcase>
+  <testcase name="givenInvalidTaskDetailsWhenUpdatedForwardToIndex" classname="com.stackroute.taskrobo.commander.test.TaskControllerTest" time="0.013">
+    <failure message="Status expected:&lt;200&gt; but was:&lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.stackroute.taskrobo.commander.test.TaskControllerTest.givenInvalidTaskDetailsWhenUpdatedForwardToIndex(TaskControllerTest.java:108)
+]]></failure>
+    <system-err><![CDATA[Apr 02, 2020 6:37:16 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Apr 02, 2020 6:37:16 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Apr 02, 2020 6:37:16 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Apr 02, 2020 6:37:16 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping for POST /api/v1/updateTask
+]]></system-err>
+  </testcase>
+  <testcase name="givenValidTaskDetailsWhenUpdatedRedirectSlash" classname="com.stackroute.taskrobo.commander.test.TaskControllerTest" time="0.012">
+    <failure message="Status expected:&lt;302&gt; but was:&lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<302> but was:<404>
+	at com.stackroute.taskrobo.commander.test.TaskControllerTest.givenValidTaskDetailsWhenUpdatedRedirectSlash(TaskControllerTest.java:102)
+]]></failure>
+    <system-err><![CDATA[Apr 02, 2020 6:37:16 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Apr 02, 2020 6:37:16 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Apr 02, 2020 6:37:16 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Apr 02, 2020 6:37:16 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping for POST /api/v1/updateTask
+]]></system-err>
+  </testcase>
+  <testcase name="givenValidTaskThenRedirectSlash" classname="com.stackroute.taskrobo.commander.test.TaskControllerTest" time="0.012">
+    <failure message="Status expected:&lt;302&gt; but was:&lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<302> but was:<404>
+	at com.stackroute.taskrobo.commander.test.TaskControllerTest.givenValidTaskThenRedirectSlash(TaskControllerTest.java:61)
+]]></failure>
+    <system-err><![CDATA[Apr 02, 2020 6:37:16 PM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring TestDispatcherServlet ''
+Apr 02, 2020 6:37:16 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet ''
+Apr 02, 2020 6:37:16 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Completed initialization in 0 ms
+Apr 02, 2020 6:37:16 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping for POST /api/v1/addTask
+]]></system-err>
+  </testcase>
+</testsuite>

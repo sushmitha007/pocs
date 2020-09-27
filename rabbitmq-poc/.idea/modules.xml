@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq-listner/rabbitmq-listener.iml" filepath="$PROJECT_DIR$/rabbitmq-listner/rabbitmq-listener.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq-listner-object/rabbitmq-listner/rabbitmq-listener (1).iml" filepath="$PROJECT_DIR$/rabbitmq-listner-object/rabbitmq-listner/rabbitmq-listener (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/rabbitmq-poc.iml" filepath="$PROJECT_DIR$/.idea/rabbitmq-poc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq-publisher/rabbitmq-publisher.iml" filepath="$PROJECT_DIR$/rabbitmq-publisher/rabbitmq-publisher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq-publisher-object/rabbitmq-publisher/rabbitmq-publisher (1).iml" filepath="$PROJECT_DIR$/rabbitmq-publisher-object/rabbitmq-publisher/rabbitmq-publisher (1).iml" />
+    </modules>
+  </component>
+</project>
